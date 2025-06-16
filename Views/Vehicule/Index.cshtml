@@ -1,0 +1,263 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>ALSA Caisse | Véhicules</title>
+    <link rel="stylesheet" href="~/css/css2/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/css2/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="body-overlay"></div>
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="~/img/alsa-logo.png" class="img-fluid" /></h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="@Url.Action("Index","FDR")">
+                        <i class="material-icons">description</i>FDR
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index","Machiniste")">
+                        <i class="material-icons">person</i><span>Machinistes</span>
+                    </a>
+                </li>
+                <li>
+                    <a style="color: black;background-color: #00B1FE;" href="@Url.Action("Index","Vehicule")">
+                        <i class="material-icons">directions_bus</i>
+                        <span>Véhicules</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Ligne")">
+                        <i class="material-icons">directions</i>Ligne
+                    </a>
+                </li>
+                <li>
+                    <a href=" @Url.Action("Index", "Encaissement")">
+                        <i class="material-icons">attach_money</i>Encaissement
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Login", "Compte")">
+                        <i class="material-icons">logout</i>Déconnexion
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+            <div class="top-navbar">
+                <div class="xp-topbar">
+                    <div class="row">
+                        <div class="col-2 col-md-1 col-lg-1 order-2 order-md-1 align-self-center">
+                            <div class="xp-menubar">
+                                <span class="material-icons text-white">
+                                    signal_cellular_alt
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="table-wrapper">
+                            <div class="table-title">
+                                <form action="@Url.Action("Index", "Vehicule")" method="post">
+                                    <div class="row" style="height:1cm">
+                                        <div>
+                                            <input style="width:5cm;margin-left: 15cm;border-radius:5px;padding: 10px 6px 0 6px" type="text" name="search" />
+                                            <button style="background:DeepSkyBlue;border:0;border-radius:5px;padding: 10px 6px 0 6px;" type="submit">
+                                                <i class="material-icons">search</i>
+                                            </button>
+                                            <button style="background:DeepSkyBlue;border:0;border-radius:5px;padding: 10px 6px 0 6px;" type="submit">
+                                                <i class="material-icons">refresh</i>
+                                            </button>
+                                            <a style="background: #28a745;border: 0;border-radius: 5px;padding: 17px 7px 4px 7px;" href="#addVehiculeModal" data-toggle="modal" style="background:DeepSkyBlue;border:0;border-radius:5px;padding: 10px 6px 0 6px;">
+                                                <i style="color:white"class="material-icons">add_circle</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>                            
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>                                        
+                                        <th>N° de matricule</th>
+                                        <th>Modèle</th>   
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model != null && Model.Vehicules != null)
+                                    {
+                                        foreach (var vehicule in Model.Vehicules)
+                                        {
+                                            <tr>
+                                                <td id="Vehicule">@vehicule.NumVehicule</td>                                                
+                                                <td style="font-size: 14px;" id="Modele">@vehicule.Modele</td>
+                                                <td>
+                                                    <div style="margin-left: 20px;" class="col-sm-6 p-0 d-flex justify-content-lg-end justify-content-center">
+                                                        <a href="#editVehiculeModal" class="btn btn-warning" data-toggle="modal" onclick="recupInfos(this)" style=";margin-right:10px">
+                                                            <i style="color:white" class="material-icons">&#xE22B;</i>
+                                                        </a>
+                                                        <a href="#deleteVehiculeModal" class="btn btn-danger" data-toggle="modal" onclick="getVehicule(this)">
+                                                            <i style="color:white" class="material-icons">&#xE15C;</i>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                            <div class="pagination">
+                                @if (Model.TotalPages > 1)
+                                {
+                                    @if (Model.Page > 1)
+                                    {
+                                        <a style="margin-right:10px" href="@Url.Action("Index", "Vehicule", new { page = Model.Page - 1, search = Context.Request.Query["search"] })" class="btn btn-primary material-icons">arrow_back</a>
+                                    }
+                                    @if (Model.Page < Model.TotalPages)
+                                    {
+                                        <a href="@Url.Action("Index", "Vehicule", new { page = Model.Page + 1, search = Context.Request.Query["search"] })" class="btn btn-primary material-icons">arrow_forward</a>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div id="addVehiculeModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <form action="@Url.Action("ajoutVehicule", "Vehicule")" method="post">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Ajouter une véhicule</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                                aria-hidden="true">
+                                            &times;
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <label>N° de matricule</label>
+                                            <input type="number" class="form-control" name="NumVehicule" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Modèle</label>
+                                            <select name="Modele" class="form-control">
+                                                <option value="Scania Irizar">Scania Irizar</option>
+                                                <option value="MERCEDES MB Conecto 12m">MERCEDES MB Conecto 12m</option>
+                                                <option value="MERCEDES MB Conecto 18m">MERCEDES MB Conecto 18m</option>
+                                            </select>
+                                        </div>                                                                             
+                                    </div>
+                                    <div class="modal-footer">
+                                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Annuler">
+                                        <input type="submit" class="btn btn-info" value="Enregistrer">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="editVehiculeModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <form action="@Url.Action("modifVehicule", "Vehicule")" method="post">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Modifier véhicule</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                                aria-hidden="true">
+                                            &times;
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <label>N° de matricule</label>
+                                            <input type="number" id="VehiculeModel" class="form-control" name="vehicule.NumVehicule" value="" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Modèle</label>
+                                            <input type="text" id="ModeleModel" class="form-control" name="vehicule.Modele" value="" required>
+                                        </div>     
+                                        <input type="hidden" id="VehiculeAncien" name="VehiculeAncien" value="" />
+                                        <input type="hidden" id="ModeleAncien" name="ModeleAncien" value="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Annuler">
+                                        <input type="submit" class="btn btn-info" value="Enregistrer">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="deleteVehiculeModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <form action="@Url.Action("deleteVehicule", "Vehicule")">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Supprimer véhicule</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                                aria-hidden="true">
+                                            &times;
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Etes-vous sur de supprimer cette véhicule?</p>
+                                    </div>
+                                    <input type="hidden" id="inputVehicule2" name="VehiculeClic2" value="" />
+                                    <div class="modal-footer">
+                                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Annuler">
+                                        <input type="submit" class="btn btn-danger" value="Supprimer">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="~/js/js/popper.min.js"></script>
+    <script src="~/js/js/bootstrap.min.js"></script>
+    <script src="~/js/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".xp-menubar").on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $('#content').toggleClass('active');
+            });
+            $(".xp-menubar,.body-overlay").on('click', function () {
+                $('#sidebar,.body-overlay').toggleClass('show-nav');
+            });
+        });
+        function recupInfos(button) {
+            var tr = button.closest("tr");
+            var Matricule = tr.querySelector("#Vehicule").textContent;
+            var Modele = tr.querySelector("#Modele").textContent;           
+            document.querySelector("#VehiculeModel").value = Matricule;
+            document.querySelector("#ModeleModel").value = Modele;            
+            document.querySelector("#VehiculeAncien").value = Matricule;
+            document.querySelector("#ModeleAncien").value = Modele;
+        }
+        function getVehicule(button) {
+            var tr = button.closest("tr");
+            var Vehicule = tr.querySelector("#Vehicule").textContent;
+            var input = document.querySelector("#inputVehicule2");
+            console.log(Vehicule);
+            input.value = Vehicule;
+        }
+    </script>
+</body>
+</html>
+
+

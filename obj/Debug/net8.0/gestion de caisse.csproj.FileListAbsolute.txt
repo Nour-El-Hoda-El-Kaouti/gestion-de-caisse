@@ -1,0 +1,153 @@
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\gestion de caisse.staticwebassets.runtime.json
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\gestion de caisse.exe
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\gestion de caisse.deps.json
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\gestion de caisse.runtimeconfig.json
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\gestion de caisse.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\gestion de caisse.pdb
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.AssemblyInfo.cs
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\staticwebassets\msbuild.gestion de caisse.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\staticwebassets\msbuild.build.gestion de caisse.props
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.gestion de caisse.props
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.gestion de caisse.props
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\scopedcss\bundle\gestion de caisse.styles.css
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\refint\gestion de caisse.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.pdb
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.genruntimeconfig.cache
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\ref\gestion de caisse.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion .35F9332C.Up2Date
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\Microsoft.SqlServer.Types.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\pt-BR\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win-x64\native\SqlServerSpatial160.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win-x86\native\SqlServerSpatial160.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion_de_caisse.Properties.Resources.resources
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\PagedList.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\HP\Desktop\gestion de caisse\gestion de caisse\obj\Debug\net8.0\gestion de caisse.sourcelink.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\gestion de caisse.staticwebassets.runtime.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\gestion de caisse.exe
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\gestion de caisse.deps.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\gestion de caisse.runtimeconfig.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\gestion de caisse.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\gestion de caisse.pdb
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\Microsoft.SqlServer.Types.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\PagedList.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\pt-BR\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win-x64\native\SqlServerSpatial160.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win-x86\native\SqlServerSpatial160.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion_de_caisse.Properties.Resources.resources
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.AssemblyInfo.cs
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\staticwebassets\msbuild.gestion de caisse.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\staticwebassets\msbuild.build.gestion de caisse.props
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.gestion de caisse.props
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.gestion de caisse.props
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\scopedcss\bundle\gestion de caisse.styles.css
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion .35F9332C.Up2Date
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\refint\gestion de caisse.dll
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.pdb
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\gestion de caisse.genruntimeconfig.cache
+C:\Users\HP\Desktop\gestion de caisse - ESTSB\gestion de caisse\obj\Debug\net8.0\ref\gestion de caisse.dll

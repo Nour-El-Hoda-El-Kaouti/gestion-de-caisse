@@ -1,0 +1,125 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+    <style>
+        .profile-details {
+            position: relative;
+            display: inline-block;
+        }
+        #dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            width: 5cm;
+            text-align: left;
+            margin-top: 4.4cm;
+            border-radius: 10px;
+        }
+            #dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                #dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                }
+
+        #dropdown-icon.upside-down {
+            transform: rotate(180deg);
+        }
+    </style>     
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>ALSA Caisse | Accueil</title>    
+    <link rel="stylesheet" href="~/css/css2/bootstrap.min.css"> 
+    <link rel="stylesheet" href="~/css/css2/custom.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="body-overlay"></div>              
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="~/img/alsa-logo.png" class="img-fluid" /></h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="@Url.Action("Index", "FDR")">
+                        <i class="material-icons">description</i>FDR
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Machiniste")">
+                        <i class="material-icons">person</i><span>Machinistes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Vehicule")">
+                        <i class="material-icons">directions_bus</i>
+                        <span>Véhicules</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Ligne")">
+                        <i class="material-icons">directions</i>
+                        <span>Ligne</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Encaissement")">
+                        <i class="material-icons">attach_money</i>Encaissement
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Login", "Compte")">
+                        <i class="material-icons">logout</i>Déconnexion
+                    </a>
+                </li>
+            </ul>
+        </nav>        
+        <div id="content">           
+            <div class="top-navbar">
+                <div class="xp-topbar">                    
+                    <div class="row">                        
+                        <div class="col-2 col-md-1 col-lg-1 order-2 order-md-1 align-self-center">
+                            <div class="xp-menubar">
+                                <span class="material-icons text-white">
+                                    signal_cellular_alt
+                                </span>
+                            </div>
+                        </div>                       
+                    </div>                    
+                </div>                   
+            </div>            
+        </div>
+    </div>
+    <center><h1 style="font-size:30px;margin-left:5cm;margin-top:7cm">Bienvenue dans votre espace de gestion</h1></center>    
+    <script src="~/js/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="~/js/js/popper.min.js"></script>
+    <script src="~/js/js/bootstrap.min.js"></script>
+    <script src="~/js/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".xp-menubar").on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $('#content').toggleClass('active');
+            });
+
+            $(".xp-menubar,.body-overlay").on('click', function () {
+                $('#sidebar,.body-overlay').toggleClass('show-nav');
+            });
+
+        });
+
+    </script>
+</body>
+</html>
+
+

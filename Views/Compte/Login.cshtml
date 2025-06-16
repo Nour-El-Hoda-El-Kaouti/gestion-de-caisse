@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title> Login | Inscription </title>
+    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+            </div>
+            <div class="back">
+            </div>
+        </div>
+        <div class="forms">
+            <div class="form-content">
+                <div class="login-form">
+                    <div class="title">Connexion</div>
+                    <form method="post" action="@Url.Action("verification","Compte")">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="Login" placeholder="Login" required>
+                            </div> 
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" name="Password" placeholder="Mot de passe" required>
+                            </div>
+                            <p style="color:red;font-size:15px;font-style:italic">@ViewBag.Result</p><br/>
+                            <div class="text"><a href="#">Mot de passe oublié?</a></div>
+                            <div class="button input-box">
+                                <input type="submit" value="Se connecter">
+                            </div>                            
+                            <div class="text sign-up-text">Vous n'avez pas un compte? <label for="flip">Créer un compte</label></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="signup-form">
+                    <div class="title">S'inscrire</div>
+                    <form method="post" action="@Url.Action("Inscription","Compte")">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="NomPrenom" placeholder="Nom et Prenom" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Login" name="Login" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Mot de passe" name="Password" required>
+                            </div>                           
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" placeholder="Email" name="Email" required>
+                            </div>
+                            <p style="color:red;font-size:15px;font-style:italic">@ViewBag.Result2</p><br />
+                            <div class="button input-box">
+                                <input type="submit" value="Valider">
+                            </div>
+                            <div class="text sign-up-text">Avez-vous déjà un compte? <label for="flip">Se connecter</label></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

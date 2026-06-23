@@ -44,5 +44,4 @@ L'application offre une interface intuitive basée sur le modèle **MVC**, offra
 ### Étapes d'installation
 1. **Cloner le dépôt**
    ```bash
-   git clone <url-du-depot>
-   cd <nom-du-projet>
+   git clone https://github.com/Nour-El-Hoda-El-Kaouti/gestion-de-caisse.git  
